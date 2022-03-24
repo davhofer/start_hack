@@ -20,13 +20,14 @@
 * Train a regression model (XGBoost).
 * https://github.com/davhofer/start_hack/tree/master/model.
 
-### 4) Develop a user interface
+### 4) User interface
 
-* Simple web interface where to user inputs journey details: start point, destination and travel date+time.
+* Web interface where to user inputs journey details: start point, destination and travel date+time.
+* User receives a prediction for the latest time when a bike spot on the desired connection is available.
 
+### 5) Complement user input with real-time data
+* Requests to SBB API to find the train connection for the requested journey.
+* Request to meteomatics to predict weather on the journey date. 
 
-### 5) Couple user input with real-time data
-* Requests to SBB API to get train connection for the requested journey.
-* 
 
 

@@ -13,6 +13,7 @@
 
 * Features given from the reservation data are: train line, time, cities.
 * Features such as weekday, holiday and weather are added.
+* Bike hooks capacity is added based on the expected train formation (to complement reservation data from 2019-2020).
 * https://github.com/davhofer/start_hack/blob/master/data_enrichment.ipynb
 
 ### 3) Model training

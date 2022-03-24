@@ -4,17 +4,19 @@
 
 ### 1) Data Preprocessing
 
-* For each reservation, define sections
-* Separate
-* Target variable: For 
+* For each reservation, define sections (between train stations).
+* For each section, define the last bike spot reservation.
+* The last bike spot reservation will be the target variable.
 
 ### 2) Data Enrichment
 
-* Add features, such as weekday, holiday, weather..
+* Features given from the reservation data are: train line, time, cities.
+* Features such as weekday, holiday and weather are added.
 
 ### 3) Model training
 
-* Train a regression model
+* Train a regression model.
+* 
 
 ### 4) Develop a user interface
 

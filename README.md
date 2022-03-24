@@ -28,6 +28,7 @@
 ### 5) Complement user input with real-time data
 * Requests to SBB API to find the train connection for the requested journey.
 * Request to meteomatics to predict weather on the journey date. 
+* https://github.com/davhofer/start_hack/tree/master/api
 
 
 

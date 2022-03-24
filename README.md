@@ -13,20 +13,28 @@
 
 * Features given from the reservation data are: train line, time, cities.
 * Features such as weekday, holiday and weather are added.
+* Bike hooks capacity is added based on the expected train formation (to complement reservation data from 2019-2020).
 * https://github.com/davhofer/start_hack/blob/master/data_enrichment.ipynb
 
 ### 3) Model training
 
 * Train a regression model (XGBoost).
+* Use the enriched dataset to predict the latest time for a bike spot reservation.
 * https://github.com/davhofer/start_hack/tree/master/model.
 
-### 4) Develop a user interface
+### 4) Complement user input with real-time data
+* Requests to SBB API to find the train connection for the requested journey.
+* Request to meteomatics to predict weather on the journey date. 
+* https://github.com/davhofer/start_hack/tree/master/api
 
-* Simple web interface where to user inputs journey details: start point, destination and travel date+time.
+### 5) User interface
+
+* Web interface where to user inputs journey details: start point, destination and travel date+time.
+* User receives a prediction for the latest time when a bike spot on the desired connection is available.
+
+[<img src="website.png" width="800"/>](website.png)
 
 
-### 5) Couple user input with real-time data
-* Requests to SBB API to get train connection for the requested journey.
-* 
+
 
 

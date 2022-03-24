@@ -26,7 +26,7 @@
 * Web interface where to user inputs journey details: start point, destination and travel date+time.
 * User receives a prediction for the latest time when a bike spot on the desired connection is available.
 
-![Alt text](/website.png?raw=true "Website") { width: 50px; }
+![Alt text](/website.png?raw=250x "Website")
 
 ### 5) Complement user input with real-time data
 * Requests to SBB API to find the train connection for the requested journey.

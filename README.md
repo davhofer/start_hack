@@ -1,13 +1,20 @@
-# start_hack
-Team can-guru
+# SBB_Challenge: TEAM CANGURU
 
-1. Data preprocessing:
--For each reservation, define sections
--Separate
--Target variable: For 
+## STEPS
 
-2. Data enrichment:
--Add features, such as weekday, holiday, weather..
+### 1) Data Preprocessing
 
-3. Model training:
--Train a linear regression model
+* For each reservation, define sections
+* Separate
+* Target variable: For 
+
+### 2) Data Enrichment
+Data enrichment:
+*Add features, such as weekday, holiday, weather..
+
+### 3) Model training
+*Train a regression model
+
+### 4) Develop a user interface
+*Simple web interface
+*User inputs: 

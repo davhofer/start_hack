@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d88fafc0-e3c3-4220-9d22-2231465de949" name="Default Changelist" comment="" />
+    <list default="true" id="d88fafc0-e3c3-4220-9d22-2231465de949" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/data_enrichment-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/data_enrichment-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_enrichment.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_enrichment.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessed/weather.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessed/weather.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -37,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648122347604</updated>
       <workItem from="1648122349024" duration="3109000" />
+      <workItem from="1648156326659" duration="2014000" />
     </task>
     <servers />
   </component>
@@ -53,5 +59,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

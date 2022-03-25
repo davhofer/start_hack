@@ -1,4 +1,5 @@
 import json
+import pickle
 import pandas as pd
 
 
@@ -9,6 +10,13 @@ def station_name_to_coordinates(df):
     df = pd.merge(df, train_stations, left_on='end_loc', right_on='abk_bahnhof')
     df = df.drop(columns=["abk_bahnhof", "Name Haltestelle"]).rename(columns={"lat": "lat_to", "lon": "lon_to"})
     return df
+
+
+def estimate_capacity(df):
+    model = pickle.load(open("model/capacity_model.pkl", "rb"))
+    df_X = df.drop(["lat_from", "lon_from", "lat_to", "lon_to", "travel_duration"], axis=1)
+    return model.predict(df_X)
+    
 
 
 def pre_process_data(df):
@@ -23,6 +31,7 @@ def pre_process_data(df):
     df_data = df_with_coordinates.dropna()
     df_data["start_hour"] = df_data["start"].dt.hour
     df_data["travel_duration"] = (df_data["end"] - df_data["start"]).dt.total_seconds()//60
+    df_data["capacity"] = estimate_capacity(df_data)
     df_data.drop(df_data[df_data["travel_duration"] < 0].index, inplace=True)
     df_data_feat_eng = df_data.drop(["start", "end", "line", "latest_res_dt"], axis=1)
     return df_data_feat_eng

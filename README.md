@@ -18,8 +18,9 @@
 
 ### 3) Model training
 
-* Train a regression model (XGBoost).
-* Use the enriched dataset to predict the latest time for a bike spot reservation.
+* Train a regression model (XGBoost). Use the enriched dataset to predict the latest time for a bike spot reservation.
+* The model predicts the latest time to reserve a bike spot for each section along the travel route. 
+* The most critical section (which needs reservation longest in advance) defines the overall prediction.
 * https://github.com/davhofer/start_hack/tree/master/model.
 
 ### 4) Complement user input with real-time data

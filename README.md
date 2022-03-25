@@ -30,7 +30,7 @@
 
 ### 5) User interface
 
-* Web interface where to user inputs journey details: start point, destination and travel date+time.
+* Web interface where user inputs journey details: start point, destination and travel date+time.
 * User receives a prediction for the latest time when a bike spot on the desired connection is available.
 
 [<img src="website.png" width="800"/>](website.png)
